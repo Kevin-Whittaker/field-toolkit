@@ -1,5 +1,7 @@
 Github tool kit links
-Hardware Diagnostics & Analysis
+All caps indicates section
+
+HARDWARE
 Memory
 https://www.memtest86.com/
 https://memtest.org/
@@ -37,10 +39,11 @@ https://www.voidtools.com/
 https://diskanalyzer.com/
 https://windirstat.net/
 
-Compression / Archives
+COMPRESSION
 https://7-zip.org/
 https://www.rarlab.com/download.htm
-Network & Internet
+
+NETWORK
 Packet Capture & Analysis
 https://www.wireshark.org/
 https://danielmiessler.com/blog/tcpdump
@@ -60,13 +63,13 @@ https://speed.cloudflare.com/
 
 Microsoft 365 Network Diagnostics
 https://connectivity.m365.cloud.microsoft/
-Vendor Support & Warranty
-Warranty Lookup
+
+VENDOR SUPPORT
 https://support.lenovo.com/us/en
 https://www.dell.com/support/contractservices/en-us/
 https://support.hp.com/us-en/check-warranty
-OS Images & Boot Media
-Operating System Downloads
+
+OS SYSTEMS
 https://www.kali.org/get-kali/#kali-platforms
 https://www.microsoft.com/en-us/software-download/windows11
 https://ubuntu.com/download
@@ -76,7 +79,7 @@ Bootable Media Tools
 https://www.ventoy.net/
 https://rufus.ie/
 
-Cybersecurity
+CYBERSECURITY
 Malware Analysis & Safe Testing
 https://www.virustotal.com/gui/home/upload
 https://www.hybrid-analysis.com/
@@ -112,5 +115,5 @@ https://socradar.io/free-tools
 Ports / Service Identification
 https://www.speedguide.net/ports.php?filter=
 
-Microsoft Admin Portal
+MICROSOFT
 https://admin.microsoft.com/Adminportal/Home#/homepage
