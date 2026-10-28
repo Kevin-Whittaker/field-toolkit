@@ -1,0 +1,82 @@
+Quick reference commands
+
+Windows
+RUN
+shell:PrintersFolder
+services.msc
+Ncpa.cpl
+Perfmon
+
+//////////////////////////
+
+FIND
+dir "C:\folderOrPath\*filename*" /s /b
+
+//////////////////////////
+
+REPAIR
+DISM /Online /Cleanup-Image /CheckHealth
+DISM /Online /Cleanup-Image /ScanHealth
+DISM /Online /Cleanup-Image /RestoreHealth
+sfc /scannow
+chkdsk C: /r
+
+//////////////////////////
+
+EXCHANGE SETUP
+Install-Module ExchangeOnlineManagement -Scope CurrentUser
+Connect-ExchangeOnline -UserPrincipalName your-admin@yourdomain.com
+Disconnect-ExchangeOnline -Confirm:$false
+
+//////////////////////////
+
+EXCHANGE RULES
+Get-InboxRule -Mailbox user@company.com -IncludeHidden | Select-Object Name,Enabled,Priority,Description | Format-Table -AutoSize
+Get-InboxRule -Mailbox user@company.com -IncludeHidden | Select-Object Name,Enabled,Priority,Description,ForwardTo,RedirectTo,DeleteMessage,MoveToFolder | Format-List
+Get-Mailbox user@company.com | Format-List ForwardingAddress,ForwardingSmtpAddress,DeliverToMailboxAndForward
+
+//////////////////////////
+
+EXCHANGE CALENDAR PERMISSION
+Add-MailboxFolderPermission -Identity “email_giving_perms@domain.com:\Calendar” -User “email.given.permission.to.be.a.reviewer@domain.com” -AccessRights Reviewer
+
+//////////////////////////
+
+Networking (needs work)
+ipconfig /displaydns 
+ipconfig /flushdns 
+tracert google.com
+nslookup google.com 
+Ping -t
+netstat -ano 
+arp -a
+hostname 
+Test-NetConnection server.company.com -Port 443
+route print
+getmac /v
+
+netsh wlan show interfaces
+netsh wlan show drivers
+
+systeminfo
+Net use
+Net user
+net use Z: /delete
+Remap ^
+gpupdate /force
+gpresult /r
+Whoami /all
+
+//////////////////////////
+
+AD SYNC
+Start-ADSyncSyncCycle -PolicyType Delta
+
+//////////////////////////
+
+LINUX
+Common commands
+sudo apt-get install
+find / -type f -iname "*filename*" 2>/dev/null
+Tool –help
+Tool –version
