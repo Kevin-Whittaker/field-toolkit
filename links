@@ -1,0 +1,116 @@
+Github tool kit links
+Hardware Diagnostics & Analysis
+Memory
+https://www.memtest86.com/
+https://memtest.org/
+https://hcidesign.com/memtest/
+https://www.tomshardware.com/how-to/how-to-test-ram
+
+Storage Health & Benchmarks
+https://crystalmark.info/en/software/crystaldiskinfo/
+https://crystalmark.info/en/software/crystaldiskmark/
+
+CPU / GPU / System Information
+https://www.cpuid.com/softwares/cpu-z.html
+https://www.techpowerup.com/gpuz/
+https://www.hwinfo.com/
+https://www.cpuid.com/softwares/hwmonitor.html
+
+Display
+https://www.jscreenfix.com/
+
+Stress / Stability
+https://www.ocbase.com/
+
+BSOD / Crash Analysis
+https://www.nirsoft.net/utils/blue_screen_view.html
+https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/
+Windows & Software Utilities
+Package / Update Management
+https://github.com/devolutions/unigetui
+
+Advanced Windows Diagnostics
+https://learn.microsoft.com/en-us/sysinternals/
+
+File Search & Disk Usage
+https://www.voidtools.com/
+https://diskanalyzer.com/
+https://windirstat.net/
+
+Compression / Archives
+https://7-zip.org/
+https://www.rarlab.com/download.htm
+Network & Internet
+Packet Capture & Analysis
+https://www.wireshark.org/
+https://danielmiessler.com/blog/tcpdump
+https://www.tcpdump.org/
+
+Wi-Fi / Wireless Analysis
+https://www.netspotapp.com/wifi-heat-map/best-wifi-heatmap-software.html
+
+Local Network Performance
+https://software.es.net/iperf/
+
+Internet Speed & Quality
+https://www.speedtest.net/
+https://www.spectrum.com/internet/speed-test
+https://fast.com/
+https://speed.cloudflare.com/
+
+Microsoft 365 Network Diagnostics
+https://connectivity.m365.cloud.microsoft/
+Vendor Support & Warranty
+Warranty Lookup
+https://support.lenovo.com/us/en
+https://www.dell.com/support/contractservices/en-us/
+https://support.hp.com/us-en/check-warranty
+OS Images & Boot Media
+Operating System Downloads
+https://www.kali.org/get-kali/#kali-platforms
+https://www.microsoft.com/en-us/software-download/windows11
+https://ubuntu.com/download
+https://www.parrotsec.org/
+
+Bootable Media Tools
+https://www.ventoy.net/
+https://rufus.ie/
+
+Cybersecurity
+Malware Analysis & Safe Testing
+https://www.virustotal.com/gui/home/upload
+https://www.hybrid-analysis.com/
+https://app.any.run/
+https://www.eicar.org/download-anti-malware-testfile/
+
+URL & Website Investigation
+https://www.urlvoid.com/
+https://urlscan.io/
+https://phishtank.org/
+https://urlhaus.abuse.ch/browse/
+
+IP / Domain / Email Reputation & Diagnostics
+https://www.abuseipdb.com/
+https://viz.greynoise.io/
+https://scamalytics.com/
+https://www.talosintelligence.com/reputation_center
+https://mxtoolbox.com/SuperTool.aspx
+https://www.nslookup.io/
+https://mha.azurewebsites.net/
+https://testconnectivity.microsoft.com/
+
+Domain Registration Information
+https://www.whois.com/whois/
+https://lookup.icann.org/lookup/listing
+
+Threat Intelligence & IOC Lookup
+https://otx.alienvault.com/
+
+Research, Threat Intelligence, Dark web report, and much more
+https://socradar.io/free-tools
+
+Ports / Service Identification
+https://www.speedguide.net/ports.php?filter=
+
+Microsoft Admin Portal
+https://admin.microsoft.com/Adminportal/Home#/homepage
